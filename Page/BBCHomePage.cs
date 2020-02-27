@@ -22,6 +22,10 @@ namespace BBCProject.Page
         }
 
         //this is a weather branch
+        public void Qatest()
+        {
+            // this is a practice session 
+        }
 
         [FindsBy(How = How.Id, Using = "idcta-username")]
         public IWebElement Signin;
